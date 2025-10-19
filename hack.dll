@@ -1,0 +1,56 @@
+###############################################
+#  M O C K  -  "MINECRAFT HACK"  #
+###############################################
+
++-----------------------------------------------------------+
+|  [MINE-UI v0.0.1]                 STATUS:  DEMO MODE      |
++-----------------------------------------------------------+
+|  Modules:                      |  Settings:                |
+|  ------------------------------------------------------- |
+|  [ ] X-Ray                     |  Render Distance:  32     |
+|  [ ] Wallhack                  |  Brightness:        100%   |
+|  [ ] Fly                       |  Move Speed:        1.0x   |
+|  [ ] KillAura                  |  Target Range:      3.5m   |
+|  [ ] AutoMine                  |  Tool Priority:     Diamond|
+|  [ ] AutoSoup                  |  Hotkey:            (none) |
+|  [ ] ESP                       |  Color:             Cyan   |
+|  [ ] Teleport                  |  Anti-Detection:    OFF    |
+|                                                           |
+|  [ Activate All ]   [ Deactivate All ]   [ Randomize UI ] |
++-----------------------------------------------------------+
+
+-- Fake console (demo, no operations) -------------------------
+[13:02:01] UI loaded in DEMO MODE.
+[13:02:01] Note: This file is a visual mockup only — no network,
+             no memory modification, no game interaction.
+[13:02:05] Toggled: X-Ray -> OFF
+[13:02:07] Toggled: ESP -> ON (visual preview only)
+[13:02:12] Warning: Attempting to perform actions? This is a fake
+             log. Nothing will be executed.
+[13:02:20] Snapshot saved: ui_mockup_2025-10-19.png (visual asset)
+---------------------------------------------------------------
+
+-- Mock configuration (JSON-like, inert example) -------------
+{
+  "ui_theme": "dark",
+  "modules": {
+    "xray": { "enabled": false, "intensity": 0 },
+    "esp": { "enabled": true, "color": "cyan" },
+    "fly": { "enabled": false, "speed": 1.0 }
+  },
+  "hotkeys": {
+    "toggle_ui": "INSERT",
+    "activate_all": "F12"
+  },
+  "notes": "EZ CSAK DEMO - ÉS NEM FUTTATHATÓ KÓD"
+}
+---------------------------------------------------------------
+
+-- ASCII art / logo (for looks) -------------------------------
+       __  ___  __  __  ___  ____  _____
+      /  |/  / / / / / / |/ / / / / / _ \
+     / /|_/ / / /_/ / /    / /_/ / /  __/
+    /_/  /_/  \____/ /_/|_/\____/  \___/
+
+   [MINE-UI] — Visual mockup only. Do not use for cheating.
+---------------------------------------------------------------
